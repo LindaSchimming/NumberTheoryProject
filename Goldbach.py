@@ -3,7 +3,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import sympy
 
-prime = list(sympy.primerange(1,100))
+prime = list(sympy.primerange(1,102))
 prime2 = prime
 
 composites = {}
@@ -52,5 +52,5 @@ plt.xticks(np.arange(min(objects), max(objects)+1, 10.0))
 plt.yticks(np.arange(min(results), max(results)+1, 1.0))
 plt.xlabel('Composites')
 plt.ylabel('Occurances')
-plt.title('Number of composites')
+plt.title('Number of Composites from Summing Pairs of Primes < 102')
 plt.show()
